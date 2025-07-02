@@ -16,6 +16,7 @@ function showCourses(){
         });
     });
 }
+
 function showEnrolledStudents(){
     fetch("http://localhost:8080/courses/enrolled") //API End point
     .then((response) => response.json()) //Http response into json object
