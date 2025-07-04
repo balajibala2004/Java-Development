@@ -9,5 +9,6 @@ class RegiSmartApplicationTests {
 	@Test
 	void contextLoads() {
 	}
+	
 
 }
