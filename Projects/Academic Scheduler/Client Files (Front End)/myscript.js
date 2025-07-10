@@ -4,6 +4,7 @@ function showCourses(){
     .then((courses) => {
         const dataTable = document.getElementById("coursetable")
 
+        
         courses.forEach(course => {
             var row = `<tr>
             <td>${course.courseId}</td>
