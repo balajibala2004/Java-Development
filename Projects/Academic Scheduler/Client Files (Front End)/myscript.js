@@ -12,7 +12,7 @@ function showCourses(){
             <td>${course.trainer}</td>
             <td>${course.durationInWeeks}</td>
             </tr>`
-            dataTable.innerHTML+=row;
+            dataTable.innerHTML+=row ;
         });
     });
 }
