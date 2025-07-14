@@ -15,6 +15,8 @@ function showCourses(){
             dataTable.innerHTML+=row ;
         });
     });
+
+    
 }
 function showEnrolledStudents(){
     fetch("http://localhost:8080/courses/enrolled") //API End point
