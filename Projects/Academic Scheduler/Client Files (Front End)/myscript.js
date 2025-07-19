@@ -15,6 +15,8 @@ function showCourses(){
             </tr>`
             dataTable.innerHTML+=row ;
         });
+
+        
     });
 
 
