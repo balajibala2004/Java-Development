@@ -10,5 +10,6 @@ class RegiSmartApplicationTests {
 	void contextLoads() {
 	}
 	
+	
 
 }
