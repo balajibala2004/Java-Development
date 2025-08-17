@@ -9,5 +9,6 @@ public class RegiSmartApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(RegiSmartApplication.class, args);
 	}
+	
 
 }
